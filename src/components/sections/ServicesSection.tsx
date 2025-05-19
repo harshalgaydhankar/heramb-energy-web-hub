@@ -4,28 +4,28 @@ import { ArrowRight } from 'lucide-react';
 const ServicesSection = () => {
   const services = [
     {
-      title: "Technology Solutions",
-      description: "Advanced technological innovations designed to optimize your operations and drive digital transformation.",
-      icon: "💻",
-      link: "#tech"
+      title: "Remote Patient Monitoring",
+      description: "Comprehensive IoT solutions for continuous patient monitoring, early intervention, and improved care management.",
+      icon: "🫀",
+      link: "#remote-monitoring"
     },
     {
-      title: "Process Optimization",
-      description: "Streamline your workflows and maximize efficiency with our industry-leading process optimization expertise.",
-      icon: "⚙️",
-      link: "#process"
+      title: "Clinical Workflow Optimization",
+      description: "Smart IoT systems that streamline clinical processes, reduce administrative burden, and enhance staff efficiency.",
+      icon: "⚕️",
+      link: "#workflow"
     },
     {
-      title: "Consulting Services",
-      description: "Strategic guidance from industry experts to help navigate complex challenges and seize new opportunities.",
+      title: "Medical Asset Tracking",
+      description: "Real-time location services and asset management solutions for critical medical equipment and supplies.",
       icon: "📊",
-      link: "#consulting"
+      link: "#asset-tracking"
     },
     {
-      title: "Sustainability Initiatives",
-      description: "Eco-friendly solutions that reduce environmental impact while enhancing operational efficiency.",
-      icon: "🌱",
-      link: "#sustainability"
+      title: "Healthcare Data Analytics",
+      description: "Advanced analytics platforms that transform IoT data into actionable insights for better clinical decision-making.",
+      icon: "📈",
+      link: "#analytics"
     }
   ];
 
@@ -34,10 +34,10 @@ const ServicesSection = () => {
       <div className="container mx-auto px-4">
         <div className="mb-12 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Our <span className="text-heramb-red">Services</span>
+            Our <span className="text-heramb-red">Solutions</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Comprehensive solutions tailored to meet your industry-specific challenges and drive sustainable growth.
+            Advanced healthcare IoT solutions designed to enhance patient care, optimize clinical workflows, and transform healthcare delivery.
           </p>
         </div>
         

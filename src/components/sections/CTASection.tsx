@@ -6,17 +6,17 @@ const CTASection = () => {
     <section className="py-20 bg-heramb-red">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white max-w-2xl mx-auto">
-          Ready to Transform Your Business with Heramb?
+          Ready to Transform Healthcare with IoT Innovation?
         </h2>
         <p className="text-lg text-white/90 max-w-2xl mx-auto mb-8">
-          Partner with us to unlock innovation, efficiency, and sustainable growth for your organization.
+          Partner with Heramb to implement cutting-edge connected healthcare solutions that improve patient outcomes and operational efficiency.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <a 
             href="#contact" 
             className="inline-flex items-center justify-center bg-white text-heramb-red px-6 py-3 rounded font-medium hover:bg-gray-100 transition-colors"
           >
-            Get Started
+            Request a Demo
             <ArrowRight size={16} className="ml-2" />
           </a>
           <a 

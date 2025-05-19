@@ -2,24 +2,24 @@
 const IndustriesSection = () => {
   const industries = [
     {
-      name: "Energy",
-      image: "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?q=80&w=2070",
-      description: "Innovative solutions for the evolving energy sector"
+      name: "Hospitals & Clinics",
+      image: "https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=2070",
+      description: "End-to-end IoT solutions for inpatient and outpatient care"
     },
     {
-      name: "Manufacturing",
-      image: "https://images.unsplash.com/photo-1517420879524-86d64ac2f339?q=80&w=2070",
-      description: "Optimizing production processes for maximum efficiency"
+      name: "Home Healthcare",
+      image: "https://images.unsplash.com/photo-1576671414121-aa2d0967541c?q=80&w=2070",
+      description: "Remote monitoring systems for telehealth and home care"
     },
     {
-      name: "Infrastructure",
-      image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=2070",
-      description: "Building the foundation for tomorrow's development"
+      name: "Medical Labs",
+      image: "https://images.unsplash.com/photo-1579154341098-e4e158cc8082?q=80&w=2069",
+      description: "IoT-enabled diagnostics and laboratory equipment"
     },
     {
-      name: "Transportation",
-      image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=2069",
-      description: "Moving people and goods with sustainable solutions"
+      name: "Pharmaceutical",
+      image: "https://images.unsplash.com/photo-1628595351029-c2bf17511435?q=80&w=2013",
+      description: "Temperature-controlled supply chain and inventory management"
     }
   ];
 
@@ -28,10 +28,10 @@ const IndustriesSection = () => {
       <div className="container mx-auto px-4">
         <div className="mb-12 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Industries <span className="text-heramb-red">We Serve</span>
+            Healthcare <span className="text-heramb-red">Sectors We Serve</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Our expertise spans across multiple industries, providing tailored solutions to address sector-specific challenges.
+            Our specialized IoT solutions cater to diverse healthcare environments, providing tailored technology for specific clinical needs.
           </p>
         </div>
         
