@@ -16,7 +16,7 @@ const CTASection = () => {
             href="#contact" 
             className="inline-flex items-center justify-center bg-white text-heramb-red px-6 py-3 rounded font-medium hover:bg-gray-100 transition-colors"
           >
-            Request a Demo
+            Contact Us
             <ArrowRight size={16} className="ml-2" />
           </a>
           <a 

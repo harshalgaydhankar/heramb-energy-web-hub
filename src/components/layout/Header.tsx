@@ -21,10 +21,8 @@ const Header = () => {
     { label: "About", href: "#about" },
     { label: "Services", href: "#services" },
     { label: "Industries", href: "#industries" },
-    { label: "Sustainability", href: "#sustainability" },
-    { label: "Investors", href: "#investors" },
-    { label: "Careers", href: "#careers" },
     { label: "News", href: "#news" },
+    { label: "Contact", href: "#contact" },
   ];
 
   return (
